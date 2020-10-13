@@ -1,0 +1,76 @@
+.columns {
+    display: flex;
+  }
+  .columns div {
+    width: 50%;
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .columns p {
+    flex-grow: 1;
+  }
+  .columns #pho
+  {
+
+   height: 240px;
+    width: 300px;
+   
+    top: 0;
+   padding-left: 220px;
+    padding-top: 40px;
+}
+.columns #oo{
+    padding-left: 120px;
+    padding-top: 150px;
+}
+
+.button  {
+    background-color: white; /* Green */
+    border: 1px solid green;
+    color: green;
+    text-align: center; vertical-align: middle; 
+ 
+    padding :20 40 50 20;
+
+    text-decoration: none;
+   
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+    
+height: 40px;
+    padding-right: 50px;
+    
+     display:table-cell;
+   
+    
+  }
+  .button5 { border-radius: 25px;}
+   
+  .dots {
+    margin-right: 20%;
+    text-align: right;
+  }
+  div{
+    display: block;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    border: 5px;
+    margin: 5px 2px;
+    background-color: rgb(38, 170, 5);
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot {
+  height: 13px;
+  width: 13px;}
+  .dots {
+    text-align: right;
+    margin-right: 100px;
+}
